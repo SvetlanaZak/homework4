@@ -1,0 +1,131 @@
+#food {
+  height: 1080px;
+  width: 100%;
+  background-size: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+header {
+  width: 100%;
+  height: 90px;
+  background-color: rgba(26, 26, 26, 1);
+}
+#logo img {
+  position: absolute;
+  left: 10px;
+  top: 33.77px;
+  bottom: 0%;
+  color: #34c759;
+}
+
+#logo {
+  width: 30%;
+}
+
+#title {
+  position: absolute;
+  width: 173.16px;
+  height: 10.46px;
+  left: 43.97px;
+  top: 33.77px;
+  color: #34c759;
+}
+.menu {
+  position: absolute;
+  width: 60%;
+  height: 90px;
+  left: calc(50% - 303px / 2 + 403.5px);
+  top: 33px;
+  display: inline;
+}
+
+.menu ul li {
+  text-align: center;
+  font-family: "Helvetica Neue";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  color: #ffffff;
+  display: inline;
+  padding: 30px;
+}
+
+a {
+  color: white;
+  text-decoration: none; /* Убирает подчеркивание для ссылок */
+}
+a:hover {
+  text-decoration: underline; /* Добавляем подчеркивание при наведении курсора на ссылку */
+  color: #34c759;
+}
+.h1 {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-direction: column;
+  padding: 15px;
+  margin: 10px;
+}
+
+h1 {
+  width: 1100px;
+  height: 163px;
+  font-family: "Rampart One", cursive;
+  font-size: 72px;
+  line-height: 84px;
+  text-align: center;
+  letter-spacing: 0.1em;
+  text-transform: capitalize;
+  color: #ffffff;
+}
+
+h2 {
+  width: 595px;
+  height: 52px;
+
+  font-family: "Helvetica Neue";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+  /* or 162% */
+
+  text-align: center;
+  letter-spacing: -0.2px;
+  color: #ffffff;
+  mix-blend-mode: normal;
+  opacity: 0.7;
+  margin: 15px;
+}
+
+#order {
+  width: 220px;
+  height: 72px;
+  background: #34c759;
+  border-radius: 43px;
+  color: black;
+  font-family: "Helvetica Neue";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+}
+
+#order:active {
+  background: #ffffff;
+}
+
+.icons {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+}
+
+#clock,
+#nav,
+#phone {
+  border-radius: 43px;
+  width: 40px;
+  height: 40px;
+  background-color: white;
+  margin: 80px;
+}
